@@ -11,13 +11,31 @@
             padding: 0;
             box-sizing: border-box;
         }
-        nav a {
+
+        header {
+            overflow: hidden; 
+        }
+
+        .website {
+            float: left;
+            color: #333;
+            font-family: 'Brush Script MT', cursive;
+            padding: 1px 20px;
+            font-size: 20px;
+        }
+
+        nav {
             float: right;
-            display: block;
+            margin-top: 45px; 
+        }
+
+        nav a {
+            display: inline-block;
             color: black;
             text-align: center;
-            padding: 30px 40px;
+            padding: 1px 60px;
             text-decoration: none;
+            font-size: 19px;
         }
 
         nav a:hover {
@@ -27,33 +45,22 @@
 
         main {
             padding: 20px;
-          
-        }
-       .brand-text {
-            float: left;
-            color: #333;
-            padding: 1px 10px;
         }
     </style>
 </head>
-<body>
-  
-    <div class="brand-text">
-        <h1>Your Brand</h1>
-    </div>
-  
-    <nav>
-        <a href="#">Contact</a>
-        <a href="#">Tour</a>
-        <a href="#">Music</a>
-        <a href="#">About</a>
-        <a href="#">Home</a>
-    </nav>
-
-    <main>
-        <!-- Your main content goes here -->
-    </main>
-
+<body>  
+    <header>
+        <div class="website">
+            <h1>Billie Eilish</h1>
+        </div>
+        <nav>
+            <a href="#">Contact</a>
+            <a href="#">Tour</a>
+            <a href="#">Music</a>
+            <a href="#">About</a>
+            <a href="#">Home</a>
+        </nav>
+    </header>
 </body>
 </html>
 
